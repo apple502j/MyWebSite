@@ -1,0 +1,112 @@
+body{
+	user-select:none;
+	background:#2D2D2D;
+	-ms-user-select:none;
+	-moz-user-select:none;
+	-webkit-user-select:none;
+}
+img{
+	width:130px;
+	border-radius:10px;
+	box-shadow:0px 0px 3px 5px #151515;
+}
+.label{
+	color:#EAEAEA;
+	font-size:20px;
+}
+.logo{
+	color:#DDD;
+	font-family:Impact;
+}
+.text{
+	color:#DDD;
+	font-size:20px;
+	font-family:Arial;
+}
+.title{
+	font-size:80px;
+	border-top: dashed 2px #CACACA;
+	border-bottom: dashed 2px #CACACA;
+}
+.sub_title{font-size:60px}
+.tab_btn{
+	color:#333;
+	transition:.4s;
+	font-weight:bold;
+	position:relative;
+	background:#E7E7E7;
+	display:inline-block;
+	text-decoration:none;
+	padding:8px 10px 5px 10px;
+	border-bottom:solid 4px #CDCDCD;
+}
+.tab_btn_0:hover{
+	color:#FFF;
+	background:#22BBFF;
+}
+.tab_btn_1:hover{
+	background:#ACACAC;
+	color:#FFF;
+}
+.tab_btn_2:hover{
+	color:#FFF;
+	background:#FFCA22;
+}
+.main_area{
+	width:1200px;
+	border:dashed 1px #EEE;
+}
+.ribbon{
+	width:130px;
+	display:block;
+	margin:0 auto;
+	padding:20px 0;
+	position:relative;
+}
+.ribbon_sub{
+	left:0;
+	top:5px;
+	margin:0;
+	height:30px;
+	color:white;
+	padding:0 12px;
+	font-size:18px;
+	line-height:30px;
+	position:absolute;
+	letter-spacing:2px;
+	box-sizing:border-box;
+	display: inline-block;
+	box-shadow:0 2px 2px rgba(0,0,0,0.12);
+}
+.ribbon_sub:before {
+	top:0;
+	left:-7px;
+	width:7px;
+	content:'';
+	border:none;
+	height:38px;
+	position:absolute;
+	border-radius:5px 0 0 5px;
+}
+.ribbon_sub:after {	
+	left:-5px;
+	width:5px;
+	content:'';
+	height:7px;
+	bottom:-7px;
+	border:none;
+	position:absolute;
+	border-radius:5px 0 0 5px;
+}
+.ribbon_sub_0{background:#FE9022;}
+.ribbon_sub_0:after{background:#EE3022;}
+.ribbon_sub_0:before{background:#FE7022;}
+
+.ribbon_sub_1{background:#22C0FF;}
+.ribbon_sub_1:after{background:#2250EE;}
+.ribbon_sub_1:before{background:#2290FE;}
+
+.ribbon_sub_2{background:#606060;}
+.ribbon_sub_2:after{background:#202020;}
+.ribbon_sub_2:before{background:#4B4B4B;}
+.ss{width:700px;box-shadow:0px 0px 20px 3px #151515;}
