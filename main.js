@@ -17,7 +17,6 @@ function main(){
 function initRes(){
 	res=[];
 
-	// init home
 	let stack='<span class="logo sub_title">My SNS Web Sites</span><br>';
 	stack+='<div class="ribbon"><h3 class="ribbon_sub ribbon_sub_0">Scratch</h3><a target="_blank" href="https://scratch.mit.edu/users/youkaiwatch"><img src="home/img/icons/Scratch.png"></a></div>';
 	stack+='<div class="ribbon"><h3 class="ribbon_sub ribbon_sub_1">Twitter</h3><a target="_blank" href="https://twitter.com/YScratcher"><img src="home/img/icons/Twitter.png"></a></div>';
