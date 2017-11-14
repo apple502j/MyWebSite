@@ -25,7 +25,7 @@ function initRes(){
 	stack+='<span class="text">15 years old boy</span><br>';
 	stack+='<span class="text">Live in Tokyo</span><br>';
 	stack+='<span class="text">I\'m a student of high school</span><br>';
-	stack+='<span class="text">Nice too meet you :D</span><br><br>';
+	stack+='<span class="text">Nice to meet you :D</span><br><br>';
 	stack+='<span class="text">(Last edited:2017/11/13)</class>';
 	
 	res.push(stack);
